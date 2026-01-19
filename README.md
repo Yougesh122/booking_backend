@@ -12,16 +12,27 @@ Create the following two MySQL databases before running the application:
 3. Laravel Backend Setup Instructions
 
 2.1 Environment Variables (.env)
+
 Update your Laravel .env file with the following configuration:
+
 DB_CONNECTION=mysql
+
 DB_HOST=127.0.0.1
+
 DB_PORT=3306
+
 DB_DATABASE=main_booking_app_db
+
 DB_USERNAME=root
+
 DB_PASSWORD=
+
 ANALYTICS_DB_DATABASE=analytics_db
+
 ANALYTICS_DB_USERNAME=root
+
 ANALYTICS_DB_PASSWORD=
+
 SESSION_DRIVER=file
 
 2.2 Install Dependencies
