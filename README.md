@@ -1,4 +1,4 @@
-Laravel & Next.js Project – Setup and Run Instructions
+Laravel Project – Setup and Run Instructions
 
 This document provides step-by-step instructions to set up the database, configure environment variables,
 
