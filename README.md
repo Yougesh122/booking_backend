@@ -6,8 +6,8 @@ run the Laravel backend, run the Next.js frontend, and test the integration betw
 
 1. Database Setup Instructions
 Create the following two MySQL databases before running the application:
-• main_booking_app_db
-• analytics_db
+1) main_booking_app_db
+2) analytics_db
 
 3. Laravel Backend Setup Instructions
 
