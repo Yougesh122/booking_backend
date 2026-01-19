@@ -37,20 +37,30 @@ SESSION_DRIVER=file
 
 2.2 Install Dependencies
 Run the following command:
+
 composer update
 
 2.3 Run Database Migrations
 Execute the migration command to create tables:
+
 php artisan migrate
 
 2.4 Start Laravel Server
 Start the Laravel development server:
+
 php artisan serve
 
 2.5 Available API Routes
+
 GET http://127.0.0.1:8000/api/v1/bookings
+
 GET http://127.0.0.1:8000/api/v1/get-bookings-status
+
 POST http://127.0.0.1:8000/api/v1/bookings
+
 GET http://127.0.0.1:8000/api/v1/bookings/{id}
+
 PUT http://127.0.0.1:8000/api/v1/bookings/{id}
+
 DELETE http://127.0.0.1:8000/api/v1/bookings/{id}
+
